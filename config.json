@@ -1,0 +1,31 @@
+ {
+    "bot": {
+        "prefix": "uasdasdasdp/",
+        "id": "850224695399153694",   
+        "secret": "qYcV-6WiCistCuMdtz1xxNmJnkSKB2hf"
+    },
+    "dashboard": {
+        "port": 3000,
+        "url": "https://www.unitimusic.tk/",
+        "callback": "https://www.unitimusic.tk/callback",
+        "discord_server_ID": "789239547858255932",
+        "ownerids": ["726580291073998868", "726580291073998868"],
+        "ownershow": true,
+        "owners": [
+            {
+                "id": "726580291073998868",
+                "desc": "Owner",
+                "desc2": "📁 Creo Bots de Discord",
+              "desc3": "📁 UnitiMusic ©️",
+              "desc4": "|_Creacion: 06/05/2021",
+              "desc5": "✚ Web:https://unitimusic.tk/",
+              "desc6": "✚ Bot:https://dsc.gg/unitimusic/"
+            }
+        ],
+        "arc": {
+            "enabled": false,
+            "code": ""
+        }
+    },
+    "discord": "https://discord.gg/dHvEHjuVxv"
+ }

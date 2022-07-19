@@ -1,0 +1,42 @@
+{
+  "website": {
+    "name": "UnitiMusic",
+    "avatar": "https://cdn.discordapp.com/avatars/850224695399153694/41fde474911e399f15387da254764ec9.png?size=1024",
+    "invite": "https://discord.com/api/oauth2/authorize?client_id=850224695399153694&permissions=8&scope=bot%20applications.commands",
+    "docs": "https://www.unitimusic.tk/owners",
+    "creator": "B𝟘rja#6563"
+  },
+  "commands": {
+    "Musica": [
+      {
+        "nombre": "Play",
+        "categoria": "Musica",
+        "descripcion": "Puedes Colocar Musica desde el Bot",
+        "permisos": [
+          "Enviar Mensajes"
+        ],
+        "uso": "/play <cancion>"
+      },
+      {
+        "nombre": "Stop",
+        "categoria": "Musica",
+        "descripcion": "Detienes la Musica que esta Sonando",
+        "permisos": [
+          "Enviar Mensajes"
+        ],
+        "uso": "/stop"
+      }
+    ],
+    "Bot": [
+      {
+        "nombre": "botinfo",
+        "categoria": "Bot",
+        "descripcion": "Ve Informacion del Bot",
+        "permisos": [
+          "Enviar Mensaje"
+        ],
+        "uso": "/botinfo"
+      }
+    ]
+  }
+}

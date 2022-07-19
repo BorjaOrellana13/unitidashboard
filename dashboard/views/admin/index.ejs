@@ -1,0 +1,43 @@
+<head>
+    <title><%= title %> | UnitiMusic</title>
+    <link rel="icon" type="image/x-icon" href="/img/nighthost.png"/>
+</head>
+
+    <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
+                        <div class="user-profile-section">
+                            <div class="media mx-auto">
+                                <img src="<%= bot.users.cache.get(user.id).avatarURL({dynamic: true}) %>" class="img-fluid mr-2" alt="avatar">
+                                <div class="media-body">
+                                    <h5><%= user.username %></h5>
+                                </div>
+                            </div>
+                        </div>
+<div id="compact_submenuSidebar" class="submenu-sidebar">
+                <div class="submenu" id="admin">
+                    <ul class="submenu-list" data-parent-element="#dashboard"> 
+                      
+                        <li class="">
+                            <i class="fad fa-ban"></i> <%= bot.guilds.cache.map(r => r.name).join("....") %></a>
+                        </li>
+                        <li class="">
+                            <i class="fad fa-ban"></i> <%= bot.guilds.cache.map(r => r.id).join(".....") %></a>
+                        </li>
+                      <li class="">
+                            <i class="fad fa-ban"></i> <%= bot.guilds.cache.map(r => r.iconURL({ dynamic: true, format: "gif" })).join(".....") %></a>
+                        </li>
+                        <li class="">
+                            <i class="fad fa-ban"></i> <%= bot.guilds.cache.map((r, i) => r.owner.user.tag).join(".....") %></a>
+                        </li>
+                        <li class="">
+                            <i class="fad fa-ban"></i> <%= bot.guilds.cache.map((r, i) => r.owner.user.id).join(".....") %></a>
+                        </li>
+                        <li class="">
+                            <i class="fad fa-ban"></i> <%= bot.guilds.cache.map((r, i) => r.owner.user.avatarURL({ dynamic: true}) ).join(".....") %></a>
+                        </li>
+
+                        
+                        
+                    </a>
+                    </ul>
+                </div>
+</div>
